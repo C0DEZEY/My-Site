@@ -1,0 +1,55 @@
+
+@tailwind *;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(0deg, #05121F 0%, #322E24 100%);
+  color: white;
+  scroll-snap-align:start;
+  scroll-snap-stop: always;
+}
+
+.projects {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(0deg, #000C17 0%, #05121F 99.99%, #030D15 100%, #030D15 100%);
+  color: white;
+  scroll-snap-align:start;
+  scroll-snap-stop: always;
+}
+
+.aboutme {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(0deg, #000 0.02%, #000 0.03%, #030D15 0.04%);
+  color: white;
+  scroll-snap-align:start;
+  scroll-snap-stop: always;
+}
+
+.contact {
+  min-height: 100vh;
+  display: flex;
+  background: linear-gradient(0deg, #05121F 0%, #322E24 100%);
+  color: white;
+  scroll-snap-align:start;
+  scroll-snap-stop: always;
+}
+
+
+
+.start{
+position: relative;
+top:25%;
+z-index: -99;
+background: #ff0d00;
+width:100vw;
+height:5px;
+}
+

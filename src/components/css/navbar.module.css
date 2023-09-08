@@ -1,0 +1,18 @@
+
+@tailwind *;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    width:250px
+    
+}
+
+.sidebar { 
+
+}
+
+.menu {
+    
+}
